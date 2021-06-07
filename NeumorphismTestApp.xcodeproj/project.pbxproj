@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		3C60EFCC266E0030000B650D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60EFCB266E0030000B650D /* AppDelegate.swift */; };
 		3C60EFCE266E0030000B650D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60EFCD266E0030000B650D /* SceneDelegate.swift */; };
-		3C60EFD0266E0030000B650D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60EFCF266E0030000B650D /* ViewController.swift */; };
 		3C60EFD5266E003D000B650D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C60EFD4266E003D000B650D /* Assets.xcassets */; };
 		3C60EFD8266E003D000B650D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C60EFD6266E003D000B650D /* LaunchScreen.storyboard */; };
 		3C60EFE6266E18C3000B650D /* DemoTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60EFE5266E18C3000B650D /* DemoTabBarController.swift */; };
 		3C60EFE9266E1AEF000B650D /* ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C60EFE8266E1AEF000B650D /* ViewController.storyboard */; };
+		3C60EFEE266E2041000B650D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60EFED266E2041000B650D /* ViewController.swift */; };
 		5FD70DBB4E5397B9F85417F3 /* Pods_NeumorphismTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3402FAE2D0D44E536B112EF1 /* Pods_NeumorphismTestApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,12 +23,12 @@
 		3C60EFC8266E0030000B650D /* NeumorphismTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeumorphismTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C60EFCB266E0030000B650D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C60EFCD266E0030000B650D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3C60EFCF266E0030000B650D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3C60EFD4266E003D000B650D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C60EFD7266E003D000B650D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C60EFD9266E003D000B650D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C60EFE5266E18C3000B650D /* DemoTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTabBarController.swift; sourceTree = "<group>"; };
 		3C60EFE8266E1AEF000B650D /* ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewController.storyboard; sourceTree = "<group>"; };
+		3C60EFED266E2041000B650D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B7FCE8FE11F9BA4A94F7D0D0 /* Pods-NeumorphismTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeumorphismTestApp.debug.xcconfig"; path = "Target Support Files/Pods-NeumorphismTestApp/Pods-NeumorphismTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,8 +67,8 @@
 			children = (
 				3C60EFCB266E0030000B650D /* AppDelegate.swift */,
 				3C60EFCD266E0030000B650D /* SceneDelegate.swift */,
-				3C60EFCF266E0030000B650D /* ViewController.swift */,
 				3C60EFE5266E18C3000B650D /* DemoTabBarController.swift */,
+				3C60EFED266E2041000B650D /* ViewController.swift */,
 				3C60EFE8266E1AEF000B650D /* ViewController.storyboard */,
 				3C60EFD4266E003D000B650D /* Assets.xcassets */,
 				3C60EFD6266E003D000B650D /* LaunchScreen.storyboard */,
@@ -208,9 +208,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C60EFD0266E0030000B650D /* ViewController.swift in Sources */,
 				3C60EFCC266E0030000B650D /* AppDelegate.swift in Sources */,
 				3C60EFE6266E18C3000B650D /* DemoTabBarController.swift in Sources */,
+				3C60EFEE266E2041000B650D /* ViewController.swift in Sources */,
 				3C60EFCE266E0030000B650D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
