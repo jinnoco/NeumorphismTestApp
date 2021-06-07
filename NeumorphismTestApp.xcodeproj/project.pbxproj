@@ -3,27 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3C60EFCC266E0030000B650D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60EFCB266E0030000B650D /* AppDelegate.swift */; };
 		3C60EFCE266E0030000B650D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60EFCD266E0030000B650D /* SceneDelegate.swift */; };
 		3C60EFD0266E0030000B650D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60EFCF266E0030000B650D /* ViewController.swift */; };
-		3C60EFD3266E0030000B650D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C60EFD1266E0030000B650D /* Main.storyboard */; };
 		3C60EFD5266E003D000B650D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C60EFD4266E003D000B650D /* Assets.xcassets */; };
 		3C60EFD8266E003D000B650D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C60EFD6266E003D000B650D /* LaunchScreen.storyboard */; };
+		3C60EFE6266E18C3000B650D /* DemoTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60EFE5266E18C3000B650D /* DemoTabBarController.swift */; };
+		3C60EFE9266E1AEF000B650D /* ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C60EFE8266E1AEF000B650D /* ViewController.storyboard */; };
+		5FD70DBB4E5397B9F85417F3 /* Pods_NeumorphismTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3402FAE2D0D44E536B112EF1 /* Pods_NeumorphismTestApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A684D8020D55F87AEF07366 /* Pods-NeumorphismTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeumorphismTestApp.release.xcconfig"; path = "Target Support Files/Pods-NeumorphismTestApp/Pods-NeumorphismTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		3402FAE2D0D44E536B112EF1 /* Pods_NeumorphismTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeumorphismTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C60EFC8266E0030000B650D /* NeumorphismTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeumorphismTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C60EFCB266E0030000B650D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C60EFCD266E0030000B650D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3C60EFCF266E0030000B650D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3C60EFD2266E0030000B650D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C60EFD4266E003D000B650D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C60EFD7266E003D000B650D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C60EFD9266E003D000B650D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C60EFE5266E18C3000B650D /* DemoTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTabBarController.swift; sourceTree = "<group>"; };
+		3C60EFE8266E1AEF000B650D /* ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewController.storyboard; sourceTree = "<group>"; };
+		B7FCE8FE11F9BA4A94F7D0D0 /* Pods-NeumorphismTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeumorphismTestApp.debug.xcconfig"; path = "Target Support Files/Pods-NeumorphismTestApp/Pods-NeumorphismTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FD70DBB4E5397B9F85417F3 /* Pods_NeumorphismTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				3C60EFCA266E0030000B650D /* NeumorphismTestApp */,
 				3C60EFC9266E0030000B650D /* Products */,
+				B2C36A3CAAC00B93B1B13ED6 /* Pods */,
+				BAF524C1B739C6FFADDCFAD5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +68,30 @@
 				3C60EFCB266E0030000B650D /* AppDelegate.swift */,
 				3C60EFCD266E0030000B650D /* SceneDelegate.swift */,
 				3C60EFCF266E0030000B650D /* ViewController.swift */,
-				3C60EFD1266E0030000B650D /* Main.storyboard */,
+				3C60EFE5266E18C3000B650D /* DemoTabBarController.swift */,
+				3C60EFE8266E1AEF000B650D /* ViewController.storyboard */,
 				3C60EFD4266E003D000B650D /* Assets.xcassets */,
 				3C60EFD6266E003D000B650D /* LaunchScreen.storyboard */,
 				3C60EFD9266E003D000B650D /* Info.plist */,
 			);
 			path = NeumorphismTestApp;
+			sourceTree = "<group>";
+		};
+		B2C36A3CAAC00B93B1B13ED6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7FCE8FE11F9BA4A94F7D0D0 /* Pods-NeumorphismTestApp.debug.xcconfig */,
+				2A684D8020D55F87AEF07366 /* Pods-NeumorphismTestApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BAF524C1B739C6FFADDCFAD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3402FAE2D0D44E536B112EF1 /* Pods_NeumorphismTestApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C60EFDC266E003D000B650D /* Build configuration list for PBXNativeTarget "NeumorphismTestApp" */;
 			buildPhases = (
+				35C4FB92F880492292A15414 /* [CP] Check Pods Manifest.lock */,
 				3C60EFC4266E0030000B650D /* Sources */,
 				3C60EFC5266E0030000B650D /* Frameworks */,
 				3C60EFC6266E0030000B650D /* Resources */,
+				6E63E3A8703A58F9BF3A3ADE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,11 +155,53 @@
 			files = (
 				3C60EFD8266E003D000B650D /* LaunchScreen.storyboard in Resources */,
 				3C60EFD5266E003D000B650D /* Assets.xcassets in Resources */,
-				3C60EFD3266E0030000B650D /* Main.storyboard in Resources */,
+				3C60EFE9266E1AEF000B650D /* ViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35C4FB92F880492292A15414 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeumorphismTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E63E3A8703A58F9BF3A3ADE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeumorphismTestApp/Pods-NeumorphismTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeumorphismTestApp/Pods-NeumorphismTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NeumorphismTestApp/Pods-NeumorphismTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3C60EFC4266E0030000B650D /* Sources */ = {
@@ -139,6 +210,7 @@
 			files = (
 				3C60EFD0266E0030000B650D /* ViewController.swift in Sources */,
 				3C60EFCC266E0030000B650D /* AppDelegate.swift in Sources */,
+				3C60EFE6266E18C3000B650D /* DemoTabBarController.swift in Sources */,
 				3C60EFCE266E0030000B650D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,14 +218,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3C60EFD1266E0030000B650D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3C60EFD2266E0030000B650D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3C60EFD6266E003D000B650D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +347,7 @@
 		};
 		3C60EFDD266E003D000B650D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7FCE8FE11F9BA4A94F7D0D0 /* Pods-NeumorphismTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,12 +361,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Jinapps.NeumorphismTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3C60EFDE266E003D000B650D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A684D8020D55F87AEF07366 /* Pods-NeumorphismTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,7 +381,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Jinapps.NeumorphismTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
